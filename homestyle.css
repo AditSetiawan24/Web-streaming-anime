@@ -85,12 +85,12 @@ body{
 .kontener {
   display: flex;
       flex-wrap: wrap;
-      gap: 20px; /* Jarak antar card */
+      gap: 20px;
 }
  .card1 {
       width: 300px;
       height: 200px;
-      background-image: url('lisensi-resmi.jpeg'); /* Ganti dengan path gambar latar belakang */
+      background-image: url('lisensi-resmi.jpeg'); 
       background-size: cover;
       border-radius: 10px;
       overflow: hidden;
@@ -100,7 +100,7 @@ body{
      .card2 {
       width: 300px;
       height: 200px;
-      background-image: url('hemat-kuota.png'); /* Ganti dengan path gambar latar belakang */
+      background-image: url('hemat-kuota.png');
       background-size: cover;
       border-radius: 10px;
       overflow: hidden;
@@ -120,7 +120,7 @@ body{
      .card4 {
       width: 300px;
       height: 200px;
-      background-image: url('diskon.png'); /* Ganti dengan path gambar latar belakang */
+      background-image: url('diskon.png');
       background-size: cover;
       border-radius: 10px;
       overflow: hidden;
@@ -130,7 +130,7 @@ body{
      .card5 {
       width: 300px;
       height: 200px;
-      background-image: url('aman.jpeg'); /* Ganti dengan path gambar latar belakang */
+      background-image: url('aman.jpeg');
       background-size: cover;
       border-radius: 10px;
       overflow: hidden;
@@ -141,7 +141,6 @@ body{
        width: 300px;
        height: 200px;
        background-image: url('gratis.jpeg');
-       /* Ganti dengan path gambar latar belakang */
        background-size: cover;
        border-radius: 10px;
        overflow: hidden;
@@ -154,7 +153,7 @@ body{
       left: 0;
       right: 0;
       padding: 20px;
-      background: rgba(0, 0, 0, 0.7); /* Warna latar belakang teks dengan transparansi */
+      background: rgba(0, 0, 0, 0.7);
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
     }
@@ -170,17 +169,17 @@ body{
     }
     
     .card1:hover {
-      transform: scale(1.1); /* Membesarkan card saat hover */
+      transform: scale(1.1); 
     } .card2:hover {
-      transform: scale(1.1); /* Membesarkan card saat hover */
+      transform: scale(1.1); 
     } .card3:hover {
-      transform: scale(1.1); /* Membesarkan card saat hover */
+      transform: scale(1.1);
     } .card4:hover {
-      transform: scale(1.1); /* Membesarkan card saat hover */
+      transform: scale(1.1); 
     } .card5:hover {
-      transform: scale(1.1); /* Membesarkan card saat hover */
+      transform: scale(1.1); 
     } .card6:hover {
-      transform: scale(1.1); /* Membesarkan card saat hover */
+      transform: scale(1.1); 
     }
     
     
