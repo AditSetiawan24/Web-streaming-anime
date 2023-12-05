@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Anime List</title>
+</head>
+
+<body>
+
+
+ 
+
+    <section class="main-section" id="main-section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand heading">A-One TV</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link links" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link links" href="daftar.html">Bergabung</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link links" href="about.html">About</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <div class="search-bar">
+                                <i class="fa fa-search"></i>
+                                <input type="text" placeholder="Search Anime">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="main">
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h1>KOE NO KATACHI</h1>
+                    </div>
+                    <div class="tag-line">
+                        <h3>The Shape of voice</h3>
+                        <h5>Sep. 17,2026</h5>
+                    </div>
+                    <div class="description">
+                        <p>Koe no Katachi tells the heartwarming tale of Shouya's reunion with Shouko and his honest attempts to redeem himself, all while being continually haunted by the shadows of his past.</p>
+                    </div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.93 RATING</h2>
+                    </div>
+                 <div class="buttons">
+  <a href="https://youtu.be/nfK6UgLra7g?si=AVzf_o5BQeo7M87s">
+    <button class="play"><i class="fa fa-play"></i> PLAY</button>
+  </a>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="movie-pictures">
+            <div class="images">
+                <img src="img/Rava-image1-temp.jpg" onclick="changeBackgroundImage(this)">
+            </div>
+            <div class="images active-image">
+                <img src="img/Rava-image2.jpg" onclick="changeBackgroundImage(this)">
+            </div>
+            <div class="images">
+                <img src="img/Rava-image3.jpg" onclick="changeBackgroundImage(this)">
+            </div>
+        </div>
+    </section>
+
+    <section class="category-buttons ">
+        <div class="buttons">
+            <button id="active-btn">All</button><button class="category-btn">Action</button><button class="category-btn">Comedy</button><button class="category-btn">Series</button><button class="category-btn">Adventure</button><button>Others</button>
+        </div>
+    </section>
+
+    <div class="category-header">
+        <h1 class="category-title">Most Viewed</h1>
+        <h1 class="view-all">View all <i class="fa-solid fa-circle-arrow-right"></i></h1>
+    </div>
+    <section class="cards-collection">
+        <div class="cards">
+            <div class="card">
+                <img src="img/shingeki-no-kyojin.jpg">
+                <div class="content">
+                    <h1>Shingeki No Kyojin</h1>
+                    <p>Shingeki no Kyojin adapts content from the first eight volumes of Hajime Isayama's award-winning manga of the same name.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.97 RATING</h2>
+                    </div>
+                       <div class="buttons"><a href="https://youtu.be/E7WytLM2KvY?si=qj_EdpdJt8xdRAGu"><button class="play"><i class="fa fa-play"></i> PLAY</button></a>
+                       </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kimetsu-no-yaiba.jpg">
+                <div class="content">
+                    <h1>Kimetsu No Yaiba</h1>
+                    <p>The anime covers chapters 1 to 53 of the manga.Kimetsu no Yaiba won the Animation of the Year award.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.49 RATING</h2>
+                    </div>
+                      <div class="buttons"><a href="https://youtu.be/VQGCKyvzIM4?si=O0JPSpvzJoObN1YX"><button class="play"><i class="fa fa-play"></i> PLAY</button></a>
+                       </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kimi-no-nawa.jpg">
+                <div class="content">
+                    <h1>Kimi No Nawa</h1>
+                    <p>Kimi no Na wa. won the LAFCA Animation Award in 2016 and the Best Animated Film in 2017.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.84 RATING</h2>
+                    </div>
+                       <div class="buttons"><a href="https://youtu.be/27q1kdb3sNY?si=1QJ--ydCC6cPC_hc"><button class="play"><i class="fa fa-play"></i> PLAY</button></a>
+                       </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/naruto-shippuuden.jpg">
+                <div class="content">
+                    <h1>Naruto Shippuuden</h1>
+                    <p>The mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.26 RATING</h2>
+                    </div>
+                       <div class="buttons"><a href="https://youtu.be/22R0j8UKRzY?si=_VFYJ6d07AzZHBaN"><button class="play"><i class="fa fa-play"></i> PLAY</button></a>
+                       </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/jujutsu-kaisen.jpg">
+                <div class="content">
+                    <h1>Jujutsu Kaisen</h1>
+                    <p>Winner of the Anime of the Year (TV Series) at the 2022 Tokyo Anime Award Festival (TAAF).</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.62 RATING</h2>
+                    </div>
+                       <div class="buttons"><a href="https://youtu.be/f7R6NA4Yo00?si=wrXM1VKO6HyUO6Ts"><button class="play"><i class="fa fa-play"></i> PLAY</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="seasons-section" id="seasons-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h1>Shingeki no Kyojin: The Final Season - Kanketsu-hen</h1>
+                    </div>
+                    <div class="tag-line">
+                        <h3>Attack on Titan: Final Season - The Final Chapters</h3>
+                        <h5>Mar. 04,2023</h5>
+                    </div>
+                    <div class="description">
+                        <p>In the wake of Eren Yeager's cataclysmic actions, his friends and former enemies form an alliance against his genocidal rampage. Though once bitter foes, Armin Arlert, Mikasa Ackerman, and the remaining members of the Scout Regiment join forces with Reiner Braun and the survivors of the Marleyan military. Their meager united front sets out on a mission to stop Eren's wrath and—if possible—save their old comrade in the process.</p>
+                    </div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.96 RATING</h2>
+                    </div>
+                   <div class="buttons">
+                      <a href="https://youtu.be/E7WytLM2KvY?si=NsCIMLdlMvNXMSiE">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 second-portion ">
+                    <div class="movie-pictures">
+                        <div class="images">
+                            <img src="img/shingeki-no-kyojin11.jpg" onclick="changeBackgroundImageSeason(this)">
+                        </div>
+                        <div class="images">
+                            <img src="img/shingeki-no-kyojin3.jpg" onclick="changeBackgroundImageSeason(this)">
+                        </div>
+                        <div class="images seasons-active-image">
+                            <img src="img/shingeki-no-kyojin2.jpg" onclick="changeBackgroundImageSeason(this)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="category-header">
+        <h1 class="category-title">Most Popular Movie</h1>
+        <h1 class="view-all">View all <i class="fa-solid fa-circle-arrow-right"></i></h1>
+    </div>
+    <section class="cards-collection">
+        <div class="cards">
+            <div class="card">
+                <img src="img/gintama-final.jpg">
+                <div class="content">
+                    <h1>Gintama: The Final</h1>
+                    <p>Gintama: The Final has earned a franchise record of 1.85 bil yen and debuted at No. 1 at the Japanese box office.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.99 RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/bwvGmPyNQUE?si=CUC4ORta7SOqrwbw">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Rava-image2.jpg">
+                <div class="content">
+                    <h1>Koe No Katachi</h1>
+                    <p>Koe no Katachi won the following awards: Japanese Movie Critics Awards for Best Animation.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.93 RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/nfK6UgLra7g?si=AVzf_o5BQeo7M87s">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/violet-evergarden.jpg">
+                <div class="content">
+                    <h1>Violet Evergarden Movie</h1>
+                    <p>Winner of the Excellence Award at the 24th Japan Media Arts Festival. It also won the Animation of the Year award</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.88 RATING</h2>
+                    </div>
+                    <div class="buttons">
+                      <a href="https://youtu.be/BUfSen2rYQs?si=J6dUH8QFNiBrJFLt">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kimi-no-nawa.jpg">
+                <div class="content">
+                    <h1>Kimi No Nawa</h1>
+                    <p>Kimi no Na wa. won the LAFCA Animation Award in 2016 and the Best Animated Film in 2017 by Mainichi Film Awards.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.84 RATING</h2>
+                    </div>
+                   <div class="buttons">
+                      <a href="https://youtu.be/27q1kdb3sNY?si=1QJ--ydCC6cPC_hc">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/evangelion.jpg">
+                <div class="content">
+                    <h1>Evangelion: 3.0+1.0</h1>
+                    <p>Shin Evangelion Movie: || has earned a franchise record of 10.22 billion yen (92.7 million USD) and debuted at No. 1 at the Japanese box office</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.60 RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/GZfuWMDEJpw?si=NqxE_Rj4eCH9kJls">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <div class="category-header">
+
+        <h1 class="category-title">Most Popular Series</h1>
+
+        <h1 class="view-all">View all <i class="fa-solid fa-circle-arrow-right"></i></h1>
+    </div>
+    <section class="cards-collection">
+        <div class="cards">
+            <div class="card">
+                <img src="img/sousou-no-frieren.jpg">
+                <div class="content">
+                    <h1>Sousou no Frieren</h1>
+                    <p>Sousou no Frieren was released on Blu-ray and DVD in seven volumes from January 24, 2024, to July 17, 2024.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.0 RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtube.com/playlist?list=PLPanbgyToztZ7OBDPkXwBuhPvgd5OBZ70&si=E1SBhzONgGmUPKj1">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/shingeki-no-kyojin.jpg">
+                <div class="content">
+                    <h1>Shingeki no Kyojin</h1>
+                    <p>Shingeki no Kyojin Season 3 Part 2 adapts content from volumes 18-22 of the same name.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.97 RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/E7WytLM2KvY?si=qj_EdpdJt8xdRAGu">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/vinland-saga.jpg">
+                <div class="content">
+                    <h1>Vinland Saga Season 2</h1>
+                    <p>Vinland Saga Season 2 was released on Blu-ray and DVD in two volumes from June 21, 2023, to August 23, 2023.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.80 RATING</h2>
+                    </div>
+                    <div class="buttons">
+                      <a href="https://youtu.be/GY2UAAn8mmo?si=0qvO2lsg15EJi037">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/oshi-no-ko.jpg">
+                <div class="content">
+                    <h1>Oshi No Ko</h1>
+                    <p>"Oshi No Ko" adapts the first 4 volumes of Aka Akasaka & Mengo Yokoyari's manga series of the same name.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.73 RATING</h2>
+                    </div>
+                   <div class="buttons">
+                      <a href="https://youtu.be/zntY4A4GPU0?si=gYtvz_7f-VpVHH_E">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/shigatsu.jpg">
+                <div class="content">
+                    <h1>Shigatsu wa Kimi no Uso</h1>
+                    <p>Winner in the anime division of the 2016 Sugoi Japan® Awards.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.65 RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/3aL0gDZtFbE?si=sb4HJfw-5mC6BChD">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <h1 class="announcement">Popular On Going Series</h1>
+    <section class="tv-series-section" id="tv-series-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h1>Jujutsu Kaisen 2nd Season</h1>
+                    </div>
+                    <div class="tag-line">
+                        <h3>Jujutsu Kaisen season 2</h3>
+                        <h5>Jul. 06,2023</h5>
+                    </div>
+                    <div class="description">
+                        <p>The year is 2006, and the halls of Tokyo Prefectural Jujutsu High School echo with the endless bickering and intense debate between two inseparable best friends. Exuding unshakeable confidence, Satoru Gojou and Suguru Getou believe there is no challenge too great for young and powerful Special Grade sorcerers such as themselves</p>
+                    </div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>8.89 RATING</h2>
+                    </div>
+                 <div class="buttons">
+                      <a href="https://youtu.be/PKHQuQF1S8k?si=cdYe0eHeNFabiSKp">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 second-portion ">
+                    <div class="movie-pictures" class="tv-series-active-image">
+                        <div class="images tv-series-active-image">
+                            <img src="img/jj1.jpg" onclick="changeBackgroundImageSeries(this)">
+                        </div>
+                        <div class="images">
+                            <img src="img/jj2.jpg" onclick="changeBackgroundImageSeries(this)">
+                        </div>
+                        <div class="images">
+                            <img src="img/jj3.jpg" onclick="changeBackgroundImageSeries(this)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="category-header">
+        <h1 class="category-title">Most Popular Up Coming</h1>
+        <h1 class="view-all"> </h1>
+        <h1 class="view-all">View all <i class="fa-solid fa-circle-arrow-right"></i></h1>
+    </div>
+    <section class="cards-collection">
+        <div class="cards">
+            <div class="card">
+                <img src="img/konosuba.jpg">
+                <div class="content">
+                    <h1>Kono Subarashii Sekai ni Shukufuku wo! 3</h1>
+                    <p>Third season of Kono Subarashii Sekai ni Shukufuku wo!</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>N/A RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/MRvKQYxvgC4?si=sl4tW4QWgFKpSX85">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/opm.jpg">
+                <div class="content">
+                    <h1>One Punch Man 3</h1></h1>
+                    <p>Third season of One Punch Man.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>N/A RATING</h2>
+                    </div>
+                    <div class="buttons">
+                      <a href="https://youtu.be/7ONNQ6wPOaU?si=lKD-MxB2LHroXIU0">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/solo-leveling.jpg">
+                <div class="content">
+                    <h1>Ore dake Level Up na Ken</h1>
+                    <p>21yo Sung Jin-Woo is one such Hunter, but he is known as the "World's Weakes".</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>N/A RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/YvGSK8mIlt8?si=RfzfkLTT-8T9nk_a">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/classroom-elite.jpg">
+                <div class="content">
+                    <h1>Classroom of Elite 3rd Season</h1>
+                    <p>The 3rd season.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>N/A RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/OzkkAol_lK4?si=F36QIpHBOXp4Y2OH">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/tensura.jpg">
+                <div class="content">
+                    <h1>Tensei shitara Slime Datta Ken 3rd Season</h1>
+                    <p>Third season of Tensei shitara Slime Datta Ken.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <h2>N/A RATING</h2>
+                    </div>
+                  <div class="buttons">
+                      <a href="https://youtu.be/YfIZahPXfpo?si=W6KL3Ris6gK5xata">
+                        <button class="play"><i class="fa fa-play"></i> PLAY</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="category-header">
+            <h1 class="view-all">A-One TV</h1>
+            <h1 class="view-all">Follow us on <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-threads"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-youtube"></i></h1>
+        </div>
+        <hr>
+        <div class="footer-cards">
+            <div class="footer-card">
+                <h1>Movies</h1>
+                <h2>Action</h2>
+                <h2>Comedy</h2>
+                <h2>Horror</h2>
+                <h2>Romance</h2>
+                <h2>Fantasy</h2>
+            </div>
+            <div class="footer-card">
+                <h1>Series</h1>
+                <h2>Completed</h2>
+                <h2>On Going</h2>
+                <h2>Up Coming</h2>
+            </div>
+            <div class="footer-card">
+                <h1>Support</h1>
+                <h2>General Info</h2>
+                <h2>Privacy Policy</h2>
+                <h2>Terms of service</h2>
+                <h2>Help Center</h2>
+            </div>
+            <div class="footer-card">
+                <h1>Support</h1>
+                <h2>support@aonetv.com</h2>
+              </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <script src="app.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" script>
+    </script>
+</body>
+
+</html>

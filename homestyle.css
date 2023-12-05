@@ -1,0 +1,322 @@
+
+body{
+  background: black;
+}
+
+.banner1 {
+  position: relative;
+}
+
+.banner1 img {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%
+}
+
+.text1 {
+  position: absolute;
+  padding: 20px;
+  color: white;
+  left: 60px;
+  top:30%;
+  z-index: 1;
+  font-size: 20px
+}
+
+  .navbar {
+      position: fixed;
+      top: 1%;
+      width: 100%;
+      z-index: 2;
+      color: white;
+      text-align: center;
+      padding: 60px;
+      left: 250px;
+    }
+  
+  .navbar1 {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 15px
+  }
+  
+  .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 90px;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.banner2 {
+  position: relative;
+ 
+}
+
+.banner2 img {
+  width: 100%;
+  height: auto;
+}
+
+.text2 {
+  position: absolute;
+  color: white;
+  top: 5%;
+  z-index: 1;
+  left: 13px;
+  font-size: 20px
+}
+
+/*card*/
+
+.kontener {
+  display: flex;
+      flex-wrap: wrap;
+      gap: 20px; /* Jarak antar card */
+}
+ .card1 {
+      width: 300px;
+      height: 200px;
+      background-image: url('lisensi-resmi.jpeg'); /* Ganti dengan path gambar latar belakang */
+      background-size: cover;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    
+     .card2 {
+      width: 300px;
+      height: 200px;
+      background-image: url('hemat-kuota.png'); /* Ganti dengan path gambar latar belakang */
+      background-size: cover;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    
+     .card3 {
+      width: 300px;
+      height: 200px;
+      background-image: url('hdr.jpeg');
+      background-size: cover;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    
+     .card4 {
+      width: 300px;
+      height: 200px;
+      background-image: url('diskon.png'); /* Ganti dengan path gambar latar belakang */
+      background-size: cover;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    
+     .card5 {
+      width: 300px;
+      height: 200px;
+      background-image: url('aman.jpeg'); /* Ganti dengan path gambar latar belakang */
+      background-size: cover;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    
+     .card6 {
+       width: 300px;
+       height: 200px;
+       background-image: url('gratis.jpeg');
+       /* Ganti dengan path gambar latar belakang */
+       background-size: cover;
+       border-radius: 10px;
+       overflow: hidden;
+       position: relative;
+     }
+
+    .card-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7); /* Warna latar belakang teks dengan transparansi */
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .card-content h2 {
+      color: white;
+      margin: 0;
+    }
+
+    .card-content p {
+      color: white;
+      margin: 10px 0 0;
+    }
+    
+    .card1:hover {
+      transform: scale(1.1); /* Membesarkan card saat hover */
+    } .card2:hover {
+      transform: scale(1.1); /* Membesarkan card saat hover */
+    } .card3:hover {
+      transform: scale(1.1); /* Membesarkan card saat hover */
+    } .card4:hover {
+      transform: scale(1.1); /* Membesarkan card saat hover */
+    } .card5:hover {
+      transform: scale(1.1); /* Membesarkan card saat hover */
+    } .card6:hover {
+      transform: scale(1.1); /* Membesarkan card saat hover */
+    }
+    
+    
+.banner3 {
+  position: relative;
+ 
+}
+
+.banner3 img {
+  width: 100%;
+  height: auto;
+}
+
+.text3 {
+  position: absolute;
+  color: white;
+  left: 13px;
+  top:5%;
+  z-index: 1;
+  font-size: 20px
+}
+.last {
+  margin-top: 170px;
+  color:black;
+}
+
+/*footer*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+);
+
+.footer-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 50px;
+}
+
+.footer hr {
+    color: #fff;
+}
+
+.footer-card {
+    padding: 20px 10px;
+    width: 270px;
+    height: 230px;
+}
+
+.footer-card h1 {
+    color: #f6c90e;
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.footer-card h2 {
+    color: #fff;
+    font-size: 17px;
+    font-family: Poppins;
+}
+
+.footer-card h2:hover {
+    cursor: pointer;
+}
+
+.footer .category-header .view-all {
+    font-size: 20px;
+    color: #f6c90e;
+}
+
+.footer .category-header .view-all i {
+    font-size: 25px;
+    color: #f6c90e;
+}
+
+@media screen and (max-width:786px) {
+    .main-section {
+        height: 150vh;
+    }
+    .tag-line{
+        width:250px;
+    }
+    .description{
+        width:250px;
+    }
+    .movie-pictures {
+        flex-direction: column;
+    }
+    .category-buttons .buttons .category-btn {
+        display: none;
+    }
+    .category-header {
+        margin: 10px 30px;
+    }
+    .seasons-section {
+        height: 150vh;
+    }
+    .tv-series-section {
+        height: 150vh;
+    }
+    .seasons-section .col-lg-6 {
+        padding: 30px 30px 10px 30px;
+    }
+    .tv-series-section .col-lg-6 {
+        padding: 30px 30px 10px 30px;
+    }
+    .tv-series-section .movie-pictures .images img {
+        margin-left: 0;
+    }
+    .footer-card {
+        width: 180px;
+    }
+}
+
+.view-all {
+
+    font-family: Montserrat;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 450px;
+}
+
+
+.text2 {
+  font-size: 20px;
+  justify-items: center;
+  top:30%;
+  text-decoration: none;
+  color: white;
+}
